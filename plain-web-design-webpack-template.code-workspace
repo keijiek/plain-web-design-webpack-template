@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "files.exclude": {
+      "**/.git": true,
+      "**/node_modules/": true,
+      "**/package-lock.json": true,
+      "**/.nvmrc": true,
+      /** 
+      As shown below, various config-files are made invisible in order to concentrate on editing html/css/js.
+      The dist directory is also made invisible for the same reason.
+      These are visible with `ls` on console, and can be opened with `code hoge`.
+      It will be visible only while it is open in that way.
+      下記の各種設定ファイルを見えないようにしている。html/css/js の編集に集中するためだ。
+      dist ディレクトリもまた同様の理由で見えないようにしている。
+      コンソールで 'ls' すれば見えるし、'code 〇〇' で開くこともできる。そのように開いている間は、エクスプローラに表示もされる。
+      */
+      // "**/webpack.*": true,
+      // "**/package.json": true,
+      // "**/.gitignore": true,
+      // "**/README.md": true,
+      "**/dist/":true,
+    }
+	}
+}
